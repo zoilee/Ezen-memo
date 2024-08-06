@@ -1,0 +1,6 @@
+DML
+ - select
+ * select 컬럼명 from 테이블명 where 조건절;
+
+mysql> select * from city where CountryCode='KOR';
+ 

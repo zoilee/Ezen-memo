@@ -1,0 +1,15 @@
+bootstrap 4
+
+p-1 ~ p-5
+pt-1 ~ pt-5
+pb, pl, pr, px, py
+
+m-1 ~ m-5
+mt-1 ~ mt-5
+mb, ml, mr, mx, my
+
+.col-1 ~ .col-12
+.col-sm-1 ~ .col-sm-12
+.col-md-1 ~ .col-md-12
+.col-lg-1 ~ .col-lg-12
+.col-xl-1 ~ .col-xl-12

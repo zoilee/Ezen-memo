@@ -1,0 +1,26 @@
+문자추출
+- 문자열의 특정 위치를 찾기 : charAt()
+
+String str = "홍길동";
+char carVal = str.charAt(1);
+
+문자 길이
+ 배열 arr 의 길이 arr.length;
+ 문자열 str 길이 str.length();
+
+문자열 대체
+ 특정 문자열을 다른 문자열로 대체 : replace()
+ String st = "자바 프로그래머 입니다.";
+ String newStr = str.replace("자바","Java");
+
+문자열 자르기
+ 문자열 자르기 : substring( beginIndex, endIndex )
+ beginIndex에서 부터 endIndex 앞까지 자름.
+
+문자열 검색
+ - int res = indexOf("검색할 문자열")
+ - Boolean res = containes("검색할 문자열")
+
+문자열 나누기
+ - String[] arr = split("기준")
+ - []

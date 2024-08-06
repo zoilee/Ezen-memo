@@ -1,0 +1,13 @@
+접속 명령
+mysql -uroot -p
+비밀번호 접속
+
+나가는 명령
+quit;
+exit;
+
+show databases; = db 리스트를 표시
+use 데이터베이스이름; = 00db를 사용한다.
+show tables; = 해당 db안의 테이블 리스트를 표시
+desc 테이블이름; = 해당테이블의 구조를 표시
+select * from 테이블이름; = 해당 테이블의 내용을 표시

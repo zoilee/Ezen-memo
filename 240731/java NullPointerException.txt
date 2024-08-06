@@ -1,0 +1,9 @@
+String str = null; 아직 번지를 지정하고 있지 않다.
+
+str //
+
+int[] intArr = null;
+intArr[0] = 20; //NullPointerException
+
+String str = null;
+이 문장의 길이는 str.length(); //NullPointerException  --자바에서는 ();

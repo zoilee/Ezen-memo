@@ -1,0 +1,14 @@
+list-style-type
+list-style-position
+
+ul ol 메뉴만들데 자주 사용
+
+
+block의 가운데 정렬은 margin-left margin-right을 auto 설정하면된다.
+
+max-width: 100%
+
+반응형 만들때, 이미지의 크기가 짐작이 안될때
+
+hover 마우스커서가 올라가 있을때 상태
+ex) A:hover

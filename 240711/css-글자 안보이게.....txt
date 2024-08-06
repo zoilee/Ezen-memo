@@ -1,0 +1,14 @@
+
+
+
+
+암기
+
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+
+
+안보이게 하는거
+            display: none;
+            visibility:hidden ;

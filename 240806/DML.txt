@@ -1,0 +1,18 @@
+CRUD - C에 해당하는 DML
+ insert into 테이블명 (컬럼명) values (값);
+김포시를 등록해 보자
+
+insert into city (ID, Name, CountryCode, District, Population)
+values(10000, 'Gimpo', 'KOR', 'Kyonggi', 480000);
+
+CRUD - U에 해당하는 DML
+ update 테이블명 set 컬럼명=값 where 조건절;
+ 김포시의 인구수가 500000
+ update city set population=500000 where id=10000;
+
+CRUD - D에 해당하는 DML
+ delete from 테이블 where 조건절;
+ delete from city where id=20000;
+
+  
+ 

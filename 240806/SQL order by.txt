@@ -1,0 +1,5 @@
+결과정렬 (order by)
+ - select 문의 결과값을 특정한 컬럼을 기준으로 오름차순/내림차순으로 정렬해서 표시
+ - select * from 테이블명 where 조건절 order by 컬럼명 asc(올림차순)/desc(내림차순), ....
+ - 기본값은 오름차순 정렬(asc) 	
+ 

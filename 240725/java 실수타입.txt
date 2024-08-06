@@ -1,0 +1,16 @@
+실수
+
+float 4byte ---> 부호 + 가수 (8bit) + 지수 (23bit)  // ex +3(가수)*10^n(지수)
+ 
+double 8byte ---> 부호 +  가수(11bit) + 지수 (52bit)  (기본타입)
+
+
+double x = 5e2; // 5 * 10 ^ 2
+
+double var = 3.14;
+float var = 3.14f; //3.14F;
+
+
+논리
+
+boolean   1byte true, false

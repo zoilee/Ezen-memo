@@ -1,0 +1,23 @@
+타입 변환!!!
+
+자동 타입 변환 : Promotion 작은->큰타입
+
+강제 타입 변환 : Casting 
+
+byte(1) <short(2) < int(4) < long(8) < float(4) <  double(8)
+
+정수타입 ===> 실수타입 (자동타입변환 가능)
+
+long var = 5000
+
+float fvar = var; (5.0e9f)
+double dvar = var; (5.0e9)
+
+char 타입은 int 타입으로 자동타입 변환됨
+
+char v = 'A';
+int intv = v; //65
+
+byte => char 는 불가능 (음수가 있기때문)
+
+연산을 하면 기본타입으로 나옴(int,double)

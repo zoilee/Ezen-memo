@@ -1,0 +1,11 @@
+class MyClass{
+	
+	int nums = 100; //필드
+
+
+	main{String[] arg{
+		int num = 10; //변수
+	
+
+	}
+}

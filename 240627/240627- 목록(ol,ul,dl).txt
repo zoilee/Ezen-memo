@@ -1,0 +1,13 @@
+목록
+ol Oddered list   block   !-- ol과ul 태그는 li 자식만 가능
+ul un Ordered list  block 
+dl DISPLAY block
+
+- ol 요소는 순서가 있는 목록이다.
+- ul 요소는 순서가 없는 목록이다.
+- ol, ul 요소는 자식으로 li 요소만 가질 수 있다.
+- li 요소는 블럭요소로 자신을 포함한 대부분의 블럭 요소를 가질 수 있다.
+- 단 li 요소는 독립적으로 사용할 수 없으며 반드시 부모로 ul 또는 ol을 가져야 한다.
+- dl은 개념 -정의를 나타내는 목록
+- dl 요소는 자식으로 dt, dd만 가질 수 있다.
+- dt와 dd는 1:1뿐 아니라 다:다 의 형식도 가질 수 있다.

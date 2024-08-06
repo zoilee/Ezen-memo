@@ -1,0 +1,56 @@
+1. 주석 : /* 주석*/ html에서는 <!--주석--!>
+
+2. color - 폰트의 색
+
+3. background-color 바탕화면의 색
+
+ - hex: 16진수 #000000 검정 #ffffff 흰색
+ - rgba : rgba(255,255,255, 1); 흰색 불투명
+
+4. background
+   background-color
+   background-image : url(이미지경로)
+   background-repeat : repeat(기본값), repeat-x, repeat-y, no-repeat
+   background-attchment : scroll (기본값), local(배경이미지가 콘텐츠와 같이 움직임), fixed(배경 이미지를 고정하고 콘텐츠만 움직임)
+   background-position : x축 y축; top, left, right, center
+   background-size : 배경의 크기 조정
+
+5. border
+   border-color
+   border-style: dotted, dashed, solid, double...             
+   border-width
+   border-radius
+
+6. margin : box의 바깥쪽 여백
+
+7. padding : box의 안쪽 여백
+
+8. font
+   font-family (sans-serif, serif, monospace, cursive, fantasy)
+   font-style : normal, italic, oblique
+   font-size
+   font-weight
+   font-variant  
+
+9. text
+   text-align: left, right, center, jutify 정렬
+   text-decoration(-line, -color, -style, -thickness) 글자밑줄, 글자윗줄, 글자 가운데 줄
+   text-transform : uppercase, lowercase, capitalize 대소문자   
+   text-indent : px 들여쓰기
+
+10. 자간, 행간, 단어간
+   letter-spacing 자간
+   word-spacing 단어사이 간격
+   line-height 행간
+
+11. white-space :
+   nomal : 기본값 - 빈공간은 한 칸만 인식, 줄바꿈은 박스가 끝나는 곳에서 자동 진행됨
+   nowrap : 빈 공간은 한 칸만 인식, 박스가 작아도 줄바꿈 되지 않는다.
+   pre : 박스가 작더라도 줄바꿈, 빈공간 모두 써 놓은데로 인식한다. html의 pre 요소 와 같다.
+   pre-wrap : pre와 같이 연속 띄어쓰기, 들여쓰기, 줄바꿈을 그대로 보존하지만 박스 끝에서 줄 바꿈
+   pre-line : 줄바꿈은 인식하지만 연속 띄어쓰기 무시, 박스 끝에서 자동 줄 바꿈
+
+   initial : 초깃값을 셋팅
+   inhert : 부모값에서 상속   
+   
+12. text-shadow : x축 y축 blur

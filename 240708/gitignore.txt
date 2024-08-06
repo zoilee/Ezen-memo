@@ -1,0 +1,11 @@
+ 최상위 폴더 file.c
+file.C
+
+모든 .txt 확장자 파일
+*.txt
+
+모든 .txt 확장자에서 제외되는 파일
+!a.txt
+
+logs폴더안 , 또는 그 안의 다른 폴더 안의 debug.log
+logs/**/debug.log

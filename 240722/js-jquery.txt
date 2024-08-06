@@ -1,0 +1,28 @@
+jquery - 2006
+https://jquery.com/
+- 대부분의 사이트들이 jquery로 만듬
+
+-순수자바스크립트 -->
+ 바닐라스크립트
+
+//jquery.com/jquery.min.js"
+
+
+1. show(), hide(), toggle()
+
+2.fadeIn(speed, callback), fadeOut(), fadeToggle(), fadeTo()
+
+	ex. fadeTo(speed, opacity[, callback])
+
+
+
+1..slideUp(), slideDown(), slideToggle()
+
+메뉴1		메뉴2		메뉴3		메뉴4
+서브메뉴1	서브메뉴2-1	서브메뉴...
+서브메뉴2	서브메뉴2-2
+서브메뉴3	서브메뉴2-3
+
+각각의 서브메뉴가 3개씩 있는 메뉴 4개를 만든 후 초기에는 메뉴가 안보이고
+메뉴에 마우스를 올리면 해당하는 서브메뉴가 슬라이드 다운되도록 하세요.
+또 영역에서 벗어나면 서브메뉴가 슬라이드 아웃 되도록 하세요..!

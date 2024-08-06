@@ -1,0 +1,30 @@
+가상클래스
+요소:가상클래스
+
+ex)
+li:first-child{}
+
+li:last-child{}
+
+요소= li 가상클래스 - first-child, last-child
+
+nth-child(even), nth-child(2n)  -짝수
+nth-child(odd), nth-child(2n-1) -홀수
+first-of-type, last-of-type, nth-of-type
+
+가상요소
+ 
+요소이름::가상요소
+
+ex)
+
+.box::before{
+	content:"박스1";
+	}
+.box::after{
+	content:"박스2";
+	}
+
+요소 = .box 가상요소 = before, after
+
+before은 요소 전에 after는 요소 후에

@@ -1,0 +1,19 @@
+pd p = [
+ {키:값, 키2:값2}
+ {키: 값, 키2:값2}
+]
+
+pd.filter(function(pd){
+pd.키2 == 흰색}
+
+
+for(let i =0; <pd.length; i++){
+     pd[i].키
+     pd[i].키2
+}
+
+map 함수
+pd.map((a)=>{
+ a.키
+ a.키2
+});

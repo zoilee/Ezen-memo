@@ -1,0 +1,19 @@
+length
+
+ set
+new Set()으로 선언하여 사용한다.
+Set()은 중복값을 자동으로 제거한다.
+add(),delet(),has(),clear,size 등의 메서드를 사용할 수 있다.
+for of 문이나 forEach 메서드를 사용하여 반복할 수 있다.
+
+-- 중복값 제거하거나 고유한 값들의 집합을 관리할 때 쓴다.
+
+ map
+
+객체를 키 = 값 형태로 저장
+
+let my = myfunc();
+
+fuction myfunc(){
+	return"비보";
+}

@@ -1,0 +1,19 @@
+table 요소는 표를 만드는 태그이다.
+tr을 표의 행을 나타낸다.
+td는 표의 열을 나타낸다
+
+thead 요소는 표의 제목 영역을 나타내며 하위의 열을 td대신에 th로 쓴다
+tbody는 표의 본문 영역을 나타낸다.
+tfoot은 표의 하위 영역을 나타내는데 많이 쓰이지 않는다.
+table의 이름을 쓸때는 table 하위에 caption 요소를 만들어 쓴다.
+
+colspan은 열을 합침
+rowspan은 행을 합침
+
+colgroup을 이용해 셀의 크기를 정한다.
+colgroup은 하위에 col을 가지며 태그를 닫을 필요는 없다.
+
+
+의미없는 태그
+div 블럭 
+span 인라인

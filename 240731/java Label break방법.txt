@@ -1,0 +1,17 @@
+Label: for(...) {
+  
+  for(...){
+     break Label;
+  }
+
+}
+
+
+for(...){
+   
+  if(i % 2 !==0{
+     countinue;
+   }
+
+  system.out.println(i);
+}

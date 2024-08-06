@@ -1,0 +1,22 @@
+git 최초설정
+- 사용자 이름과 이메일 주소 설정
+git config --global user.name "영문이름"
+git config --global use.email "이메일주소)
+
+// git에서 작업하는 공간 branch ---> master
+git config --global init.defaultBranch main
+
+git branch -M main
+
+2.git 형상관리 시작하기
+git init -- 깃에 형상관리를 맡김
+git status -- 깃의 정보를 확인
+
+VI (리눅스 txt 에디터 프로그램)
+입력모드 i (명령어 모드에서 텍스트입력 모드로 전환)
+입력종료 esc(입력을 종료 하고 명령어 모드로 전환)
+저장없이 종료 :q
+저장없이 강제 종료 :q!
+저장 하고 종료 :wq
+위로 스크롤 k
+아래로 스크롤 j

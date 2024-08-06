@@ -1,0 +1,36 @@
+margin
+
+1개: top-right-bottom-left
+2개: top-bottom, left-right
+3개: top, left-right, bottom
+4개: top, right, bottom, left
+
+-서로 부딪힐때는 큰 쪽만 적용된다.
+-inline은 margin-top, margin-bottom은 적용되지 않는다.
+-width, height도 적용되지 않는다.
+ 
+
+display
+-inline-block 은 인공적으로 만드는 태그
+-inline적 성격을 가지고있지만 크기를 잡을 수 있음
+
+font-size
+    px,em(부모의 크기를 기준으로
+    rem(body 의 크기를 기준으로
+    vh, vw (브라우저 사이즈 기준 100vh)
+
+font-weight
+-light, nomarl, bold, bolder
+nomarl = 400
+
+font-style
+-normal italic oblique
+
+font-align
+-left, right, center, justfly
+
+
+
+
+        a img spam 인라인
+

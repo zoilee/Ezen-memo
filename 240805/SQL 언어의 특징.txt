@@ -1,0 +1,22 @@
+SQL 언어의 특징
+- 데이터베이스에 필요한 정보를 사용할 수 있도록 도와주는 언어
+- 사용문법이 다른언어(C#, Java, C ...) 보다 단순함.
+- 하나를 배워두면 대부분의 DBMS에서 사용할 수 있음
+- 인터프리터(컴파일이 필요없는 언어)
+- 대소문자 구별하지 않음 (데이터의 내용은 구별함)
+
+SQL 종류
+ - DML (Data Manipulation Language)
+ * 테이블의 데이터를 조작하는 기능
+ * 테이블 레코드를 CRUD 하는것
+   C : insert, R : select, U : update, D : delete
+
+ - DDL (Data Definition Language)
+ * db 또는 테이블의 스키마를 수정, 정의
+ * 테이블 생성, 컬럼추가, 타입변경, 각종 제약조건 지정
+    C : createt, R : show, U : alter(다시 정의), D : drop
+
+ - DCL (Data control Language)
+ * db 또는 테이블의 접근권한, CURD 권한 정의하는 기능
+ * 특정 사용자에게 테이블의 조회권한 허가/금지 가능
+    GRANT : 권한부여 REVOKE : 권한 취소

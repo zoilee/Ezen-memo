@@ -1,0 +1,23 @@
+distinct (중복제거)
+논리연산자 (and, or, not, in, between)
+정렬(sort)
+
+중복제거
+select 문의 결과값에 특정 컬럼만 출력하는 경우 중복을 제거해서 출력하는 기능
+select distinct 특정컬럼명, 컬럼명2 .. from 테이블명 where 조건
+
+and, or, not
+국가코드가 kor 이면서 인구가 100만 이상인 도시
+국가코드가 kor, chn, jpn인 도시
+국가코드가 kor가 아니면서 인구가 100만 이상인 도시
+
+in
+select * from city where 
+countrycode='kor' or countrycode='jpn' or countrycode='chn';
+
+select * from city where countrycode in('kor','chn','jpn');
+
+between 000 이상 000 이하
+kor 이면서 인구가 100만 이상 500만 이하
+
+sorting

@@ -1,0 +1,11 @@
+publc class Calculator{
+	string color;
+	void setColor(String color){
+		this.color = color
+	}
+	static double pi = 3.14159;
+}
+
+public class CalculatorExam{
+	Calculator.pi
+}

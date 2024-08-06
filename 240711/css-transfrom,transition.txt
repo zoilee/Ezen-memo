@@ -1,0 +1,14 @@
+transform
+  위치를 움직임 - translate()
+  돌리는 것 - rotate()
+  크기 - scale()
+  각도변환 - skew()
+  이 옵션을 한꺼번에 - matrix()
+
+transition:
+  변화를 언제부터 시작 할 것인지 : transition-delay
+  얼마의 시간동안 변화 : transition-duration
+  뭐가 변할건데 : transition-property
+  변화하는 시간모델 : transition-timing-function
+
+	https://cubic-bezier.com/

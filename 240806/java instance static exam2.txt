@@ -1,0 +1,13 @@
+publc class Car{
+	String model;
+	int speed;
+
+	Car(){
+	this.speed;
+	}
+}
+
+CarExam{
+	Car myCar = new Car();
+	myCar.speed;
+}

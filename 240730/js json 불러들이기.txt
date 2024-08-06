@@ -1,0 +1,11 @@
+1.dom을 읽어라
+2.웹에서 json 읽어와라
+3.json 을 obj 로 변환하라
+4. 변환된 obj 를 dom에 써라..
+
+
+fetch(명령)
+  .then ((res)=> res.json()
+  .then(data => {
+  })
+ .catc(err => );

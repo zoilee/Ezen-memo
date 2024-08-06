@@ -1,0 +1,26 @@
+최초설정
+
+cmd창에서
+
+1. git config -- global user.name "name"
+2. git config --global user.emal "e-mail"
+
+Git의 작업영역을 branch (master => main)
+
+Git config -- global init.defaultBranch main
+
+
+작업폴더
+작업폴더를 git으로 관리 git.intit
+깃에 관리를 맡기지 않을때 : .ignore
+깃에 등록 : git add "파일명" - 여러 파일인경우 git add .
+ git commit
+ i
+ esc
+ git add . -m"텍스트입력"
+
+과거로 돌아가는 두가지 방식
+  Reset : 원하는 시점으로 돌아간 뒤 이후 내역을 지웁니다.
+   Git reset --hard 돌아갈지점의 해시코드 일부  
+
+  Revert : 되돌리기 원하는 시점의 커밋을 거꾸로 실행합니다.

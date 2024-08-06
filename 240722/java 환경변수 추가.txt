@@ -1,0 +1,5 @@
+시스템 --> 고급 시스템 설정 --> 환경 변수 
+시스템 변수에  변수 추가후 ex) 설치경로를 JAVA_HOME로 등록
+path 편집에 등록 ex)%JAVA_HOME%\bin 등록
+
+확인 java -version javac- version

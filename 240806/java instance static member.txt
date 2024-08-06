@@ -1,0 +1,10 @@
+객체에 소속된 멤버 : 인스턴스 멤버 (instance)
+
+ex)
+calculator myCalc = new Calculator();
+
+myCalc.run();
+
+
+클래스에 고정된 멤버 : 정적멤버 (Static)
+Calculator.run();

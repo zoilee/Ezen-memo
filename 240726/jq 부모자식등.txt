@@ -1,0 +1,23 @@
+조상
+parent()
+parents()
+parents("요소선택")
+parentsUntil("조상요소중 선택") - 선택한 요소 이전까지 선택 됨
+
+자손
+children()
+find("조건")
+
+형제관계
+siblings()
+
+next()
+nextAll()
+nextUntil()
+prev()
+prevAll()
+prevUntil()
+
+
+nth-of-type()  (타입중에서
+nth-of-children() (같은 서열에서 순서대로셈)

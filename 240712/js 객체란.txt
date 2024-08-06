@@ -1,0 +1,18 @@
+javascript ==> 객체기반 (Object)
+
+- 내장객체 (Math, Array, Date, String ...)
+
+   - 브라우저 객체 모델 (BOM)
+      : window, screen, location, history, navigateor
+
+   - window.location.href="이동할 URL";
+
+
+
+
+모든 객체는 Method(행위) 와 Property(특성) 를 가질 수 있다.
+
+tv -- 켜다, 끄다, 볼륨을 높이다. (Method)
+   -- 삼성, 100인치,
+
+TV.켜다(); TV.크기

@@ -1,0 +1,22 @@
+position
+
+ static - 기본값
+
+  -위치값을 가지고 있지 않음
+  -주변의 있는 요소를 기준으로 위치
+ absolute
+
+  - margin 값이 적용되지 않음
+  - top, left, bottom, right 이 적용
+  - 위치값을 가지고 있는 부모의 0, 0을 기준으로 위치
+  - z-index 값이 높으면 위에나타남
+
+ relative
+  - margin(즉, 주변의 요소들의 위치를 적용받는다)
+  - top, left, bottom, right 이 적용
+
+ fixed
+  -무조건 뷰포트의 0, 0을 기준으로 위치
+
+ sticky
+ -

@@ -1,0 +1,43 @@
+제어문
+-조건문 if else
+
+ => 네가 만일 공부를 열심히 한다면 천재가 될 것이다.
+      if(공부를 열심히){
+	천재
+       }
+조건문에서의 0, null. "". undefined ==> false 이다
+
+if(조건식){
+ 참
+}else{
+ 거짓
+}
+
+-선택문 switch
+const num =3;
+switch(num){
+ case 1:
+    실행문
+ break;	
+ case 2:
+    실행문
+ break;	
+ case 3:
+    실행문
+ break;	
+ case 4:
+    실행문
+ break;
+ default:
+     실행문   
+}
+
+-반복문 for while
+
+num = 1;
+while(num < 5) {
+   document.write("바보 + num");
+   num++;
+}
+
+

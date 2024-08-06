@@ -1,0 +1,28 @@
+roadmap.sh
+
+https://musecom.net/xe/
+
+https://www.w3schools.com/
+
+1.html -- css - javascript
+2.포토샵 -> 일러스트레이터 -> 피그마
+vscode 확장팩 liveserver 하면 편하게 작업가능
+@1서버 설치
+ 1) 윈도우 서버 iis server
+   -제어판 프로그램및 기능 ->window 기능 키고 끄기 --> iis 관리자에서 변경가능
+
+ 2) 아파치 서버 apach
+ 3) java 를 위한 tomcat server
+
+- 255.255.255.255
+  32bit
+
+ ip 192.168.0.153
+ index.html <-로 생성시 기본서버 적용
+ 웹서버 포트는 80
+
+6.모든 컴퓨터는 자기 아이피를 127.0.0.1로 갖는다.
+ 127.00.1 = localhost
+ live server 포트는 5500
+
+7.html 제목 태그 : h1 ~ h6 문단 p

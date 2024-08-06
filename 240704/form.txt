@@ -1,0 +1,38 @@
+form 데이터 전송 form 
+
+<form action="" method="  "> method=전송 방법 get,post
+-get 파라메터 안으로 전송, 읽거나(Read) 검색(Retrieve)할 때에 사용 url에 데이터 포함
+-post 암호화하여 데이터를 전송 리소스를 생성할때 사용
+
+input
+<input type=" " name=" " value="">  type=인풋 타입 name=이름 value=값 id=id
+
+type
+-text 한줄 텍스트
+-password ***로 표시
+-checkbox 체크박스 표시
+-radio 같음 이름의 radio체크박스 중 하나만 선택
+-file 파일 전송
+-submit 전송버튼
+-email 이메일형식 
+-number 숫자형식
+등 기존에는 text로 통일했지만 모바일에 자판이 없어 세부 분류가 늘음
+label
+ <label for=""> 감싼 값들을 묶음
+
+textarea
+ <textarea name=" " id=" " cols="글자수(숫자)" rows="줄수(숫자)">여기에 쓰는게 value</textarea>
+
+select
+<select name=" " id="" > selct창
+            <option value=" "> </option>
+            <option value=" "> </option>
+            <option value=" "> </option>
+            <option value=" "> </option>
+</select>
+
+button
+<button type=" "> </button>
+type
+-button 버튼
+-reset 리셋

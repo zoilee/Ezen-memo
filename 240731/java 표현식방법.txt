@@ -1,0 +1,7 @@
+
+int score = switch (grade) {
+ case "A" -> 100;
+ case "B" ->{
+   int result = 100-20;
+  }
+}

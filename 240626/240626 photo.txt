@@ -1,0 +1,25 @@
+모니터 기본 72ppi
+1. 비트맵(Bit map)
+픽셀로 구성된 이미지
+(사진처럼 여러가지 색이 들어가는 이미지)
+
+jpg(jpeg)(압축률이 제일좋음), png(바탕화면을 투명하게), gif
+
+2. 벡터(Vector)
+수학적인 오브젝트에 의해 정으된 선과 곡선으로 구성된 이미지
+(로고, 일러스트레이터)
+
+svg
+
+ - 색의 삼요소 (감산혼합)
+   Cyan Magenta Yellow    K
+
+- 빛의 삼요소 (가산혼합)
+   Red Green Blue
+
+
+adobe
+
+photoshop (이미지 편집 - 비트맵) -- RGB
+
+illustlaor (이미지 생성 - 벡터) -- CMYK

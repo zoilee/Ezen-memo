@@ -1,0 +1,6 @@
+function (a){
+ 실행
+ return b;
+}
+
+(a) => (b)

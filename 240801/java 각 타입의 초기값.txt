@@ -1,0 +1,9 @@
+int = 0
+byte[], short[], int[] ====> 0
+char[] ====> '\u0000'
+long[] ===> 0L
+String[] ====> null
+boolean[] false
+
+
+클래스..인터페이스 ===> null

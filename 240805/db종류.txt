@@ -1,0 +1,4 @@
+오라클 -
+sql-server (ms sql) -
+mysql (maria db) -
+
