@@ -1,0 +1,9 @@
+테이블 제약조건
+ - 입력데이터에 제약조건을 걸어 해당되지 않는 데이터의 입력을 막음
+ - not null : 데이터가 null인 값은 바아 들이지 안ㅇ흠
+ - unique : 데이터 중복값을 방지
+ - primary key : 기본키 (not null, unique 조건이 걸림)
+ - foreign key : 외래키 제약조건
+ - check : 입력값 체크 (ex: age >=0) mysql에는 없ㅇ므
+ - default : 컬럼에 값이 없으면 기본값을 입력
+ - auto_increment : 자동증가 (보통 primary key에 부여)

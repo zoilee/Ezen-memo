@@ -1,0 +1,10 @@
+결과값 일부만 조회하기(비표준)
+
+- SQL 쿼리 결과 중 상위 몇 개만 보여주는 쿼리
+- select * from 테이블명 limit 숫자 (mysql)
+- 오라클 (Rownum), SQL Server (TOP)
+
+-ex) mysql : select * from tablename LIMIT 5; (postgreSQL,MariaDB)
+      oracle : select * from tablename where rownum <= 5;
+      sql server: select top 5 * from tablename;
+

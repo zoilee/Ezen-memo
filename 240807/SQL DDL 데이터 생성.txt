@@ -1,0 +1,9 @@
+DDL (Data Definition Language)
+ - 데이터베이스 또는 테이블의 CRUD
+ - 테이블에 대한 정보는 메타데이터(Metadata)로
+   데이터사전(Data Dictionary)에 저장, 관리 된다
+
+ - 데이터 생성 : CREATE DATABASE 데이터베이스명;
+ - 데이터 생성 : CREATE TABLE 테이블명(컬럼1 타입(크기), ...);
+ 
+ 

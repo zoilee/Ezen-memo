@@ -1,0 +1,24 @@
+public class 어떤클래스[
+
+	//인스턴스 필드, 인스턴스 메소드 선언
+	int field1;
+	void methhod1(){...}
+
+	//정적 필드 메소드 선언
+	static int field2;
+	static void method2(){...}
+
+	//정적블록 선언
+	static {
+	(사용불가)field1 = 10;
+	(사용불가)method1();
+		field2 = 10;
+		method2();
+	}
+
+	static void method3(){
+	(사용불가)this.field1 = 10;
+	(사용불가)this.method1();
+	}
+
+}

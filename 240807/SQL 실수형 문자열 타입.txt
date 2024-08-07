@@ -1,0 +1,21 @@
+자료형 (data types)
+ - 정수형 : tinyint (-128 ~ 127)
+              int : (-21억 ~ 21억 : 43억)
+              bigint (-9경 ~ 9경 : 18경)
+
+ - 실수형 : float < double < decimal
+
+ - 문자열 : char : 고정길이 (최대 255자) - mysql 8 이상 : 65,535자
+              varChar : 가변길이 (최대 255자)
+              text : 최대 65,535자 
+              text < mediumtext (1670만) < longtext (42억)
+              
+	  blob (Binary large Object)
+              blob (65,535 바이트)
+              blob < mediumblob < largeblob
+	  
+ 	  date (YYYY-MM-DD)
+	  time (HH:MI:SS)
+              datetime(YYYY-MM-DD HH:MI:SS)
+              timestamp (YYYY-MM-DD HH:MI:SS) - 1970-01-01 이후 (유닉스타임)            
+  	  
