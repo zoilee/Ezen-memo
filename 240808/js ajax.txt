@@ -1,0 +1,6 @@
+$.get();
+$.post(); //서버
+$.ajax({
+ key: value,
+ key: value
+});

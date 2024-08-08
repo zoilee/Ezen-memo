@@ -1,0 +1,12 @@
+두 테이블 간의 연결 (JOIN)
+ - 서로 다른 테이블을 공통 컬럼을 기준으로 합치는 테이블 연산
+ - select * from 테이블1 join 테이블2 on 테이블1.컬럼명 = 테이블2.컬럼명...
+ - 서로 다른 테이블에 같은 컬럼명이 존재하면 구분을 위해 테이블명.컬럼명
+
+
+1. INNER JOIN - 두 테이블 간에 일치하는 행만 반환
+2. LEFT JOIN (LEFT OUTER JOIN) - 왼쪽 테이블의 모든 행에 일치하는 
+                                           오른쪽 테이블 행을 반환, 일치하지 않는 행은 null
+3. RIGHT JOIN (RIGHT OUTER JOIN) - 오른쪽 테이블의 모든 행에 일치하는 
+                                               왼쪽쪽 테이블 행을 반환, 일치하지 않는 행은 null
+4. FULL JOIN (FULL OUTER JOIN) - 일치하는 행, 일치하지 않는 행 반환 (mysql에는없음)
