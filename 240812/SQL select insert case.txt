@@ -1,0 +1,26 @@
+select into
+insert into select
+(if else ...) case when end
+
+select into
+
+쿼리결과를 갖고 새 테이블을 만든다
+create table 테이블명 as select * from 테이블명 (mysql)
+뷰와 같은 효과
+
+
+insert into select
+
+쿼리결과를 기존의 테이블에 추가
+
+insert into 테이블명1 select *from 테이블명2 where 조건;
+select 하는 테이블과 insert 하는 테이블이 동일한 구조를 가져야 한다.
+
+CASE ... WHEN ... END
+
+SQL의 조건문 (if ir switch 문에 해당)
+조건에 따라 쿼리 결과를 구분한다.
+CASE WHEN 조건값1 THEN ....
+       WHEN 조건값2 THEN ....
+       ELSE .....
+END

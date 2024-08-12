@@ -1,0 +1,19 @@
+상속 Inheritiance 이란?
+
+A 부모가 B 라는 자식한테
+
+publick class A {
+   int fields;
+   void method(){}
+}
+
+public class B extends A {
+   B(){
+        //부모생성자가 먼저호출
+        super();
+        //자식생성자가 만들어짐
+   }
+   String fields;
+   void method2(){}
+}
+
