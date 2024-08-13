@@ -1,0 +1,7 @@
+GROUP BY 
+ 
+- 집합함수와 같이 사용해 그룹별 연산을 적용
+ - select 컬럼명, 집합함수명(컬럼명) from 테이블명 group by 컬럼명;
+ 
+HAVING
+ -집합연산에서 where 조건절 대체로 사용
