@@ -1,0 +1,11 @@
+javax.servlet *
+javax.servlet.http *
+
+1) 요청(Requset)
+2) HttpServletRequest - 객체생성
+3) 스레드 생성 / 할당
+4) 객체 전달 (servlet container - httpservletrequest, httpservletresponse 객체를 스레드에 인자로 전달)
+5) 호출 / 실행
+    service(), 
+6) 객체전달 doPost(), doGet()
+7) 응답 (Response)

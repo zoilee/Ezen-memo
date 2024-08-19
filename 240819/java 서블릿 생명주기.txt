@@ -1,0 +1,5 @@
+서블릿 생명주기
+init();
+service();
+doGet(), doPost()
+destory();
