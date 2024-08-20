@@ -1,0 +1,15 @@
+ServletContext 바인딩
+ - 바인딩을 위한 메서드
+     setAttribute(String name, Object object);
+     getAttribute(String name);
+     reomveAttribute(String name);
+
+
+	메서드				기능
+	getMajorVersion()			현재 서블릿의 Major 버전
+	getMinorVersion()			현재 서블릿의 Minor 버전
+	gerServerInfo()			현재 서블릿 컨테이너의 이름과 버전 정보
+	gerServletContext()			ServletContext 반환
+	getServletContextNames()		ServletContext 이름을 반환
+	getContextPath()			애플리케이션의 경로를 반환
+	getRealPath(String path)		인자로 지정된 path의 실제 경로를 반환

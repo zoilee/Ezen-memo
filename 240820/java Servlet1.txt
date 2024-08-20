@@ -1,0 +1,31 @@
+1. Servlet 의 기본구조
+ -서블릿 클래스는 HttpServlet의 상속을 받는다.
+   public class 서블릿이름 extends HttpServlet{ ...
+
+ - 메서드의 구현 : doGet(), doPost()는 service() 메서드에 의해 호출된다. 서블릿의 비즈니스 로직 doGet(), doPost()에 의해 구현되어야 한다.
+
+ - 브라우저 출력 : (응답을 위한 셋팅)
+  response.setContentType("text/html;charset=utf-8");
+  PrintWirter out = response.getWriter();
+
+ - 요청을 받을 때 한글 처리
+   requse.setCharacterEncoding("utf-8");
+
+2. ServletContext 객체
+ - 서블릿 컨테이너가 시작될 때 애플리케이션 마다 고유의
+   ServletContext 객체가 만들어 짐. 즉 애플리케이션과
+   ServletContext는 생명주기가 같음. 애플리케이션 소멸시 함께 소멸.
+
+ - ServletContext 파라미터
+    web.xml 문서에 지정해서 사용
+    <context-param>
+ 	<param-name>파라미터 이름</param-name>
+	<param-value>파라미터값</param-value>
+    </context-param>
+
+ - ServletContext 파라미터 추출
+     ServletContext context = this.getServletContext();
+     getInitParameter(이름) : 이름에 해당하는 파라미터값을 반환
+     getInitParameterNames() : 모든 ServletContext 파라미터의 이름을 열거(Enumeration)으로 반환해 줌.
+
+ 

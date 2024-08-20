@@ -1,0 +1,13 @@
+일반 예외 (EXCEPTION)
+
+실행 예외 (RUNTIME EXCEPTION)
+
+
+try{
+   구문
+}catch(예외클래스e){
+   예외처리
+}finally{
+   항상실행
+}
+  
