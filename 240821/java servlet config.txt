@@ -1,0 +1,9 @@
+ServletConfig
+ - @WebServlet 어노테이션
+ @WebServlet(
+	description = "파라미터지정",
+	urlPatterns = {"/sc"}
+	initParams = {
+	  @WebInitParam(name="hero" value="이순신")
+	}
+)

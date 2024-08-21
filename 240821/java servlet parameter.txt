@@ -1,0 +1,9 @@
+파라미터 관련 메서드
+
+	
+
+	메서드				리턴타입		기능
+	setCharacterEncoding(encoding)	void		requst 로 요청된 변수의 character 값을 지정
+	getParameter(String name)		String		클라이언트에서 전달받은 파라미터값
+	getParameterNames()		Enumeration	클라이언트에서 전달받은 모든 파라미터이름
+	getParameterValues()		String[]		클라이언트에서 전달받은 값들을 배열로 추출 

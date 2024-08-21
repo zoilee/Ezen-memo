@@ -1,0 +1,11 @@
+
+//Object는 모든 타입의 상위클래스
+
+public class Box <T>{
+
+  publi T content;
+}
+
+Box <String> box = new Box<String>();
+box.content = "김철수";
+String content = box.content;
