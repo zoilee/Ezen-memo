@@ -1,0 +1,6 @@
+포워딩 하는 세 가지의 방법
+
+
+ 1. HttpServlet에 있는 sendReDirect("주소");
+ 2. javascript 를 이용하는 방법 : document.location.href="주소";
+ 3. RequestDispatcher를 이용하는 방법

@@ -1,0 +1,7 @@
+<%@ page info="JSP프로그램 연습" 생략 할 수 있다.
+
+<%@ contentType = "text/html;charset=utf-8"' %>
+
+<%@ page import="jav.User, Java.io.*"%>
+
+<%@ 

@@ -1,0 +1,13 @@
+1. 스키마의 수정 (ALTER)
+
+ 추가 : alter table 테이블명 add 컬럼명 데이터타입
+ 삭제 : alter table 테이블명 drop column 컬럼명
+ 수정 : alter table 테이블명 change 컬럼명 수정컬럼명(type)
+ 수정 (이름은 바꾸지 않고 타입, 옵션만 변경) 
+       alter table 테이블명 modify 컬럼명 수정옵션
+
+2. 테이블 삭제, 데이터 삭제
+ 
+ drop table 테이블 이름 
+ delete * from table 이름; -> 스키마는 유지되고 내용만 지워짐.
+ truncate table 테이블이름; -> 스키마 까지 지워짐
