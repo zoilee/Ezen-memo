@@ -1,0 +1,12 @@
+<jsp:foward> 액션 태그
+  
+  <jsp:forward page="이동할 문서"/>
+
+<jsp:include> 액션 태그
+
+  <jsp:include page="포함할 문서" flush="true/false"/>
+
+<jsp:useBean ...
+
+ <jsp:usebean id="name" scope="page | request | session | application" typeSpec=....>
+ 

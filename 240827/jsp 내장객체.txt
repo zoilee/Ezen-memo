@@ -1,0 +1,13 @@
+jsp 내장객체
+
+	
+	내장객체		클래스				설명
+	requset		javax.serlvet.http.HttpServletRequest	요청
+	response		javax.serlvet.http.HttpServletResponse	응답
+	out		javax.servlet.jsp.jspWriter		브라우저 출력
+	session		javax.servlet.http.HttpSession	http 세션정보
+	application	javax.servlet.ServletContext		웹 애플리케이션 정보
+	config		javax.servlet.ServletConfig		jsp 초기화 파라미터
+	page		java.lnag.Object			jsp 문서 자체
+	pageContext	javax.servlet.jsp.PageContext		기본개체 반환하거나 포워딩
+	exception	java.lang.Throwable		예외처리
