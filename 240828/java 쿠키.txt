@@ -1,0 +1,10 @@
+쿠키의 생성/추출/변경
+ 
+쿠키의 생성
+ - Cookie 객체 = new Cookie("쿠키이름","쿠키값");
+ - response.addCookie("객체");
+
+쿠키 추출
+ - getCookie() - Cookie[]로 반환됨
+ - getName() - String 쿠키이름 추출
+ - getValue() - String 쿠키 값 추출

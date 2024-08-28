@@ -1,0 +1,7 @@
+ SQL
+
+ - Drivermanager - jdbc Driver를 관리하여 db와 연결해서 Connection 구현 객체를 생성
+
+ - Connection - Statement, PreparedStatement, CallbleStatement 구현 객체를 생성
+
+ - ResultSet - db에서 가져온 값을 읽을 때 사용 
