@@ -1,0 +1,17 @@
+1.mvc (Model - view - controller)
+
+  model - db 관련 dao(data access object)
+
+  view - html, jsp
+
+  controller - 프로그램밍
+
+
+2.db에 엑세스
+ - 바로 사용자 요청 x
+ - getter and setter
+
+3.db 커넥션
+ - Apache DBCP : Apache Commons 의 제공, 전통적으로 많이 사용되는 풀링
+ - C3P0
+ - HikariCP : 최근 많이 사용
