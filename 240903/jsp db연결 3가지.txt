@@ -1,0 +1,13 @@
+
+--> Class.forName("com.mysql.cj.jdb.Driver");
+1. Connection conn = DriverManager.getConnection(url, userid, pass);
+
+-- 약점 : app이 실행될 때 마다 커넥션이 일어남.
+
+2. JNDI (Java Naming and Directory Interface) - 자바 정보 분리
+ - 분리하고 관리하는게 쉽다. - 풀링을 이용해 연결이 가능하다.
+ - 트랜젝션 관리가 가능
+
+3. InitialContext initContext = new InitialContext();
+   Context eContext = initContext.lookup('java:comp/env')  
+   dataSource = (DataSource) eContext.lookup("jdbc/이름");

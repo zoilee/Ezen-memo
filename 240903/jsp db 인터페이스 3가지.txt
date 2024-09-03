@@ -1,0 +1,30 @@
+컬렉션프레임워크
+
+		인터페이스 분류		특징				구현
+		Collection	List	- 순서를 유지하고 저장		ArrayList, Vector
+					- 중복저장 가능			LinkedList
+				Set	- 순서를 유지하지않고 저장		HashSet, TreeSet
+					- 중복 저장 안됨
+		Map			- 키와 값으로 구성된 엔드리 저장	HashMap, Hashtable,
+					- 키는 중복 저장 안됨		TreeMap, Properties
+
+List 객체 : index로 관리되기 떄문에 저장하면 인덱스가 부여되고 인덱스를 이용해 검색, 삭제할 수 있다.
+	
+	객체 추가
+
+	boolean add(E e); -> 객체 추가 
+	void add(int index, E e)  => 해당 인덱스에 객체 추가
+	set(int index , E e) => 해당 인덱스를 바꿈
+
+	객체 검색
+	
+	boolean contains(Object o) - 주어진 객체가 저장되어 있는지 여부
+	E get(int index) - 주어진 저장 객체를 리턴
+	isEmpty() - 컬렉션이 비어 있는지 조사
+	int size() - 전체 객체수를 반환
+
+	객체 삭제
+	
+	void clear()
+	E remove(int index)
+	boolean remove(Object o)
