@@ -1,0 +1,10 @@
+Expression Language
+ 논리 : ${true} ${false}
+ 숫자 : ${120 -30}
+ 문자열 : ${"문자열"}
+ null : ${null}
+
+내장객체
+ ${내장객체.속성}
+ request.setAttribute("nation", "대한민국") - ${request.Scope.nation} = ${nation}
+ 내장 객체 우선순위 : pageScope > requestScope > sessionScope > applicationScope

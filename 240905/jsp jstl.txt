@@ -1,0 +1,26 @@
+
+
+	
+	코어(Core)		변수, 제어문, 순환문, url	c	http://java.sun.com/jsp/jstl/core
+	Formatting		날짜, 시간, 국제화		fnt	http://java.sun.com/jsp/jstl/fmt
+	Function(함수)		문자열 처리		fn	http://java.sun.com/jsp/jstl/functions
+	데이터베이스(SQL)		데이터 crud		sql	http://java.sun.com/jsp/jstl/sql
+	XML			xml 처리			x	http://java.sun.com/jsp/jstl/xml
+
+
+	1. 변수 : c:set c:out c:remove   ex) <c:set var="name" value="철수"/>
+	
+	2. <a href="${page.Context.request.contextPath}/이름.jsp">
+
+	3. <c:if> -> else 없음  <c:if test = "조건식 [var="변수명] [scope = "page|request|...}>
+	4. <c:choose> 다중 조건
+	   <c:choose>
+	      <c:when test="조건식">
+	      
+                  </c:when>
+	      <c:otherwise>
+                  
+	       </c:otherwise>
+	   </c:choose>
+	5. <c:forEach> 반복문
+	6. <c:catch> 오류 처리
