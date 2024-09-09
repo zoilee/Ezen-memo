@@ -1,0 +1,7 @@
+SimpleDateForm 많이씀
+
+getTime() = unix 타임으로 변환
+
+currentTimeMillis
+
+
