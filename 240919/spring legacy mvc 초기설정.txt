@@ -1,0 +1,67 @@
+spring legacy mvc
+
+pom.xml에서 java 버전 맞추기, maven compiler source의 버전맞추기
+
+		<!-- db접속을 위해 추가한 부분-->
+		
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->	
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-jdbc</artifactId>
+		    <version>${org.springframework-version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+		<dependency>
+		    <groupId>com.mysql</groupId>
+		    <artifactId>mysql-connector-j</artifactId>
+		    <version>8.4.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-dbcp2 -->
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-dbcp2</artifactId>
+		    <version>2.12.0</version>
+		</dependency>
+		
+		<!--  //db 접속 추가부분 끝 --> 
+추가
+
+web.xml
+한글필터 추가
+	<!-- 한글설정 -->	
+	<filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>
+			org.springframework.web.filter.CharacterEncodingFilter
+		</filter-class>
+		<init-param>			
+			<param-name>encoding</param-name>			
+			<param-value>UTF-8</param-value>		
+		</init-param>		
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>	
+	</filter>	
+	<filter-mapping>		
+		<filter-name>encodingFilter</filter-name>		
+		<url-pattern>/*</url-pattern>	
+	</filter-mapping>	
+	<!-- 한글설정 END -->
+
+root-context.xml or servlet-context.xml 에 dbcp datasource 추가
+
+	<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+		<property name="url" value="jdbc:mysql://localhost:3306/mycomu?serverTimezone=UTC"/>
+		<property name="username" value="root"/>
+		<property name="password" value="z1z2z3z4"/>
+	</bean>
+	
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+
+
+인터페이스에 Getmapping 추가 변수 추가
+
