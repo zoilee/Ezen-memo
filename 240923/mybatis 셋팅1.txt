@@ -1,0 +1,8 @@
+spring context
+spring webmvc
+spring jdbc
+mysql-connector -
+
+로그 설정을 위해 필요한 플러그인
+slf4j
+log4j
