@@ -1,0 +1,14 @@
+const [변수이름, set변수이름]  = useState(기본값);
+
+const [now, setNow] = useState(new Date());
+const handleButton = () =>{
+   setNow(new Date)
+}
+
+useEffect(()=>{
+	//어떤작업
+}, );
+
+useEffect(()=>{
+
+},[]);
