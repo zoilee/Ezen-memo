@@ -1,0 +1,5 @@
+expo cli 설치 : npm install -g expo-cli
+
+프로젝트 만들기 : expo init 프로젝트명
+
+cf) react native cli설치 npx react-native init 프로젝트
