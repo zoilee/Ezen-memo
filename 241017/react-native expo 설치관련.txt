@@ -1,0 +1,10 @@
+npm install -g -exp-cli (expo설치)
+
+npx create-expo-app 프로젝트 --> tsx, ts App.ts app.tsx - 타입스크립
+
+
+expo init 프로젝트
+
+@react-navigation/native-stack
+react-native-gesture-handler
+react-navigation
