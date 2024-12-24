@@ -1,0 +1,8 @@
+expo 이용한 빌드
+1. npm install -g eas-cli // eascli 설치
+2. eas login // expo 로그인
+3. eas init //프로젝트 초기화 (첫번쨰는 하는게 좋음)
+4.eas build --platform android --profile preview (apk빌드)
+5.eas build --platform android (안드로이드 스튜디오용)
+6.eas build --platform ios (ios용)
+

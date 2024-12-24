@@ -1,0 +1,32 @@
+리눅스 가상메모리 만들기
+
+mkdir /swap
+
+sudo dd if=/dev/zero of=/swap/swapfile bs=1024 count=2097152   //2기가 파일만들기
+
+chmod 600 swapfile
+mkswap swapfile
+swapon swapfile
+
+
+free -h 메모리보기
+
+yum install git -y 깃 깔기
+
+pwd = 현재경로
+리눅스는 드래그하면 카피
+
+cp ./파일 /루트
+
+gradlew 권한 없으면 chmod 755 gradlew 등으로 권한부여
+
+./gradlew build -x test
+		-x = 익스클루드 (제외)
+
+build 가 생김
+
+cd build
+cd libs
+plain이 없는 jar 파일 선택
+
+포트 80으로 바꾸면 :포트번호 안넣어도됨

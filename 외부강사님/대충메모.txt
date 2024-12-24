@@ -1,0 +1,38 @@
+어드민 jq그리드
+
+//
+테이블 = view
+
+그리드 = 거기서 crud가능
+
+대시보드
+
+
+
+//
+ERD 구성
+
+벤치마킹
+
+
+깃
+관리
+aws가 최고...
+
+
+
+자바의정석 1,2
+
+
+
+AWS
+- EC2
+- RDS
+
+ELASTIC IP ?
+
+RDBMS
+MYSQL, MARIADB,
+ ORACLE, MSSQL, POSTGRESQL
+SQLITE=갤럭시 서버DB?
+

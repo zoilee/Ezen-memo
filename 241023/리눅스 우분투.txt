@@ -1,0 +1,47 @@
+관리자 ubunto
+
+
+sudo 관리자명령
+sudo su = 관리자 권한 취득
+
+리눅스 명령어 = 명령어 -옵션
+
+rwx
+읽기 r 쓰기 w 실행 x
+디렉토리일시
+drwx
+
+내권한 그룹권한 모두권한
+
+r: 4
+w: 2
+x: 1
+0
+
+ chown 소유자 바꾸는 명령
+ chmod 읽고 쓰는 권한 바꾸는 명령
+ mkdi 폴더생성
+r mydir
+
+chown 개인권한:그룹권한 파일 or 디렉토리명
+755 rwx -r -x rwx 777 707
+
+우분투 설치관리자
+(sudo) apt update
+apt install apache2
+
+apache 실행
+systemctl status apache2
+systemctl start apache2
+systemctl stop apache2
+systemctl restart apache2
+
+방화벽 활성화
+ufw enable
+
+포트 열기 allow 22 80 443 8080 8443 3306
+
+에러 로그 확인
+tail -f 로그경로
+
+nano

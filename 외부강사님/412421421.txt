@@ -1,0 +1,13 @@
+dbl
+dml
+
+생명주기
+
+회원가입시 중복처리는
+front에서 1번
+back 에서1번
+
+service 에서 exception 처리
+
+controller
+rescontroller

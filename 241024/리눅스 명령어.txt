@@ -1,0 +1,13 @@
+1) 톰캣 쓰기위해 java11
+ sudo apt install openjdk-11-jdk -y
+
+ java -version
+
+2) sudo apt install apache2
+  아파치 실행: sudo systemctl start apache2
+
+https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.96/bin/apache-tomcat-9.0.96.tar.gz
+
+tar 옵션 -x 압축해제 -z gzip 압축 해제 -v 자세히 출력 -f 파일이름 지정
+          -c 압축생성 -z -v -f
+tar -zxvf 

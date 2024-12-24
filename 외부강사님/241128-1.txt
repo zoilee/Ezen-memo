@@ -1,0 +1,30 @@
+sudo visudo
+
+젠킨스로 접속에 비밀번호 x설정
+jekins ALL=(ALL)        NOPASSWD: ALL
+
+vi /etc/sudoers
+로 됬는지 확인
+
+service jenkins restart 로 다시켜기
+
+/************************ start.sh
+PID=$(lsof -ti:80)
+if [ ! -z "$PID" ]; then
+        kill -9 $PID
+        echo "kill $PID"
+else
+        echo "No process 80 port"
+fi
+sudo nohup java -jar /var/lib/jenkins/workspace/{프로젝트 이름}/build/libs/(이름) > nohup.out 2>&1 &
+***************************/
+
+젠킨스에 build step 추가
+
+chmod +x start.sh 권한주고
+sh 실행
+
+git에 webhooks 셋팅
+젠킨스 주소 넣고
+json타입으로 변경 후 
+add webhook

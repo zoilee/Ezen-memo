@@ -1,0 +1,42 @@
+dnf update -y
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+
+service jenkins start
+
+
+ps -ef | grep {서비스명}
+
+
+
+service jenkins stop
+
+
+ vi  /var/lib/jenkins/secrets/initialAdminPassWord 젠킨스 번호
+
+
+lsof | grep /tmp
+lsof /tmp
+ kill -9 pid
+
+cp /etc/fstap /etc/fstab.backup
+
+
+//tmp 세팅 
+vi /etc/fstab
+tmpfs   /tmp    tmpfs   defaults,size=2G,noatime,mode=1777   0   0 넣기
+
+
+//tmp 체크
+df -h /tmp
+
+
+
+//jenkins 설명
+
+github project check
+오래된빌드삭제 check
+소스코드관리 git check 

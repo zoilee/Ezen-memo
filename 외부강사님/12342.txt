@@ -1,0 +1,12 @@
+// 숫자, 문자, 논리
+
+// 정수
+byte b,
+short s,
+int i;
+long l;
+// 실수
+float f;
+double db;
+
+s instanceof Son ==== s는 son이라 불러도 되니?

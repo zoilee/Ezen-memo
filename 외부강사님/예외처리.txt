@@ -1,0 +1,12 @@
+compile 익셉션
+runtime 익셉션
+
+compile  c,
+interpriter javascript
+
+java = byte코드로 변경해서 디 컴파일도 됨
+
+
+예외처리 2개로 나눌수있음
+강제, 자진
+
